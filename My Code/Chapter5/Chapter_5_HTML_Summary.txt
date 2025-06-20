@@ -1,0 +1,62 @@
+chapter 5 Introduction to HTML
+--------------------------------------
+
+-what is html  
+--basic structure  
+--tags and elements  
+--head and body  
+--common tags  
+
+--------------------------------------
+
+What is HTML  
+--------------------
+HTML stands for **HyperText Markup Language**.  
+It is used to **create web pages** and tell the browser how to display content.
+
+--------------------------------------
+
+Basic Structure  
+--------------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <p>This is my website.</p>
+  </body>
+</html>
+
+--------------------------------------
+
+Tags and Elements  
+--------------------
+HTML uses **tags** written in angle brackets <>.
+
+Example:
+<h1>Heading</h1>
+
+Every element has:
+- an opening tag: <p>
+- content: Hello!
+- a closing tag: </p>
+
+--------------------------------------
+
+Head and Body  
+--------------------
+The <head> tag contains info *about* the page (like title, CSS, meta tags).  
+The <body> tag contains everything that appears on the page.
+
+--------------------------------------
+
+Common Tags  
+--------------------
+<h1> to <h6> — Headings  
+<p> — Paragraph  
+<a> — Link  
+<img> — Image  
+<ul>, <ol>, <li> — Lists  
+<br> — Line Break  

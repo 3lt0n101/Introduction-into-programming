@@ -1,0 +1,100 @@
+chapter 6 Conditionals and Loops
+--------------------------------------
+
+-if statements  
+--else if and else  
+--comparison operators  
+--logical operators  
+--switch statement  
+--while loop  
+--for loop  
+
+--------------------------------------
+
+If Statements  
+--------------------
+Used to run code only if a condition is true.
+
+Example:
+
+if (x > 10) {
+  console.log("x is big");
+}
+
+--------------------------------------
+
+Else If and Else  
+--------------------
+Used to add more conditions or run code if none match.
+
+Example:
+
+if (x > 10) {
+  console.log("big");
+} else if (x == 10) {
+  console.log("equal");
+} else {
+  console.log("small");
+}
+
+--------------------------------------
+
+Comparison Operators  
+--------------------
+Used to compare values:
+
+==   equal to  
+!=   not equal to  
+>    greater than  
+<    less than  
+>=   greater or equal  
+<=   less or equal  
+
+--------------------------------------
+
+Logical Operators  
+--------------------
+Used to combine conditions:
+
+&&   AND  
+||   OR  
+!    NOT  
+
+--------------------------------------
+
+Switch Statement  
+--------------------
+Used to check many possible values:
+
+switch (fruit) {
+  case "apple":
+    console.log("Nice choice");
+    break;
+  case "banana":
+    console.log("Healthy!");
+    break;
+  default:
+    console.log("Unknown fruit");
+}
+
+--------------------------------------
+
+While Loop  
+--------------------
+Repeats code while the condition is true:
+
+var i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+--------------------------------------
+
+For Loop  
+--------------------
+Used when you know how many times to repeat:
+
+for (var i = 0; i < 5; i++) {
+  console.log(i);
+}

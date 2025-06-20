@@ -1,0 +1,125 @@
+chapter 2 Data types and variables
+--------------------------------------
+-Numbers and operator
+--variables
+--strings
+--Booleans
+
+Variables
+--------------
+what are variables
+variables are used to store data javascript gives you away to
+name things such as data types as variable.eg var Variable="Name"
+
+ways to name variable :variablename  varname variable_name
+                       variableName  varNAme Var_Name
+                          camel casing
+
+you can create new variables using old ones like this: var x = 3 ;
+                                                       var y = 2 ;
+                                                       var c = x + y
+
+increamenting and decremanting
+                                                  
+++x           |        --x
+x = x + 5;    |   x = x - 5;
+x =+5:        |   x =-5:
+x =*5;        |   x =/5;
+
+-3 types of data : string number and booleans
+stings represent text and booleans are True or False
+
+Strings
+-----------------
+strings are data type that uses text.in javaScript we can join string using the + oparator 
+we can find the length of a string we can also slice a string and change the cassing of string to capital or lowercase
+ 
+ *joining strings                        *finding length of strings
+---------------------------              --------------------------------                
+var myName = "Elton"                      myNAme.length ;
+var mySname = "Creator"                   mySname.length ;
+
+var Fullname = myNAme + mySname ;
+ 
+ *cutting strings                      *getting a single letter
+-------------------------------        ---------------------------------------
+
+"a string".slice(2,5);                    myName[0]; E
+myName.slice(2,50 ;                       mySname[3]; a
+
+ *Changing strings to lowwer or Upper case                        
+---------------------------------------------------              
+"hellow everyone".toUpperCase();                                      
+                                                                                                
+"HELLOW EVERYONE".toLowerCase();                                                                                                 
+                                                                                                                                      
+
+Boolean
+-------------------------------------------
+a variable that is either true or false that is a boolean
+you can combine boolean with boolean oparators and the results is another boolean....Note
+
+ *boolean oparators             *combining boolean oparators
+-------------------------       -------------------------------------
+
+&& and --                       NOte need explanation                    
+                 
+|| or --                                            
+
+! not                                                            
+
+ *comparing numbers with boolean
+------------------------------------------
+
+> greater than     eg var x=2;
+< less than           var y=3;
+== equal to           x < y; true
+                      x > y; false
+
+                      x==y; false
+
+UNDEFINED AND NULL
+
+Undefined is when when a variable doesnt have a value assigned eg var myvariable;
+
+Null is used when you diliberatly want to say something is empty eg var myvariable = null;
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

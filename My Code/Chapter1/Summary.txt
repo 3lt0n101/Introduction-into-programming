@@ -1,0 +1,41 @@
+JAVASCRIPT NOTES FUNDAMENTAL
+
+1.CHAPTER 1
+
+- What is JavaScript
+-syntax pg10
+-comments
+
+-summary
+
+what is javascript
+-----------------------
+javascript is a programming language used to communicate with a computer
+you write code in a programming language it gets interpreted by the computer or compiled
+using problem solving skills programmers are able to write programs that can solve real world problems
+
+
+
+Syntax 
+-------------
+This is how the programming language interpretes
+what it is you want the computer to do,it is like the grammaer of 
+the programming language.eg : , ;{}[]()
+
+semi-colon ;
+paranthesis ()
+curly  bracket {}
+square bracket []
+colon :
+
+comments 
+------------
+comments are used by programmers to make it easy to read their code
+and follow the logic making it easy to fix later or understand the code 
+after a long time
+
+// you may use two forward slashes to make a comment in one line
+/*   */ you may use this to make a multi line comment
+
+
+

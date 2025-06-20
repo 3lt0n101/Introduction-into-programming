@@ -1,0 +1,92 @@
+chapter 3 Arrays
+--------------------------------------
+
+-What are arrays  
+--creating arrays  
+--accessing array values  
+--changing array values  
+--array length  
+--looping through arrays  
+--array methods  
+
+--------------------------------------
+
+Arrays
+--------------------  
+Arrays are used to **store multiple values in one variable**.  
+You can think of an array like a list or box of items.  
+
+var fruits = ["apple", "banana", "mango"];
+
+Each item in an array is given a **position number**, called an **index**.  
+JavaScript **starts counting from 0**, not 1.  
+
+--------------------------------------
+
+Creating Arrays
+-------------------------
+var names = ["Elton", "Mandela", "Lebo"];
+var numbers = [1, 2, 3, 4];
+
+You can also make an empty array:  
+var empty = [];
+
+Arrays can store **mixed types** too:  
+var mix = ["Ghosth0wl", 25, true];
+
+--------------------------------------
+
+Accessing Array Values
+---------------------------
+To get an item from the array, use its index in square brackets:
+
+names[0];   // Elton  
+names[2];   // Lebo
+
+--------------------------------------
+
+Changing Array Values
+-------------------------------
+You can update any value by using its index:
+names[1] = "Ghost";
+
+Now the array becomes: ["Elton", "Ghost", "Lebo"]
+
+--------------------------------------
+
+Array Length
+---------------------------
+To check how many items are in an array, use:
+names.length;
+
+This gives the total number of items in the array.
+
+--------------------------------------
+
+Looping Through Arrays
+---------------------------------------------
+To go through every item in the array:
+
+for (var i = 0; i < names.length; i++) {
+  console.log(names[i]);
+}
+
+--------------------------------------
+
+Array Methods
+---------------------------------------------
+
+ *adding items*                        *removing items*  
+-------------------------              ------------------------------  
+push("item") — adds to end        pop() — removes last item  
+unshift("item") — adds to start   shift() — removes first item  
+
+ *finding and checking*  
+-------------------------  
+indexOf("item") — shows the index number  
+includes("item") — checks if item exists (true/false)  
+
+ *cutting and editing*  
+--------------------------  
+slice(start, end) — copies a part of the array (non-destructive)  
+splice(start, count) — removes or inserts items (destructive)

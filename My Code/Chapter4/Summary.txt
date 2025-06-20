@@ -1,0 +1,89 @@
+chapter 4 Objects
+--------------------------------------
+
+-what are objects  
+--object syntax  
+--accessing object values  
+--changing object values  
+--objects inside arrays  
+--arrays inside objects  
+--nested objects  
+
+--------------------------------------
+
+Objects  
+--------------------  
+Objects are used to store data in key-value pairs.  
+Each value is connected to a name (called a property).
+
+Example:
+
+var person = {
+  name: "Ghosth0wl",
+  age: 23,
+  skill: "coding"
+};
+
+--------------------------------------
+
+Accessing Object Values  
+---------------------------
+You can get data from an object using dot or bracket notation:
+
+person.name;        // "Ghosth0wl"
+person["age"];      // 23
+
+--------------------------------------
+
+Changing Object Values  
+-------------------------------
+You can change values just like you access them:
+
+person.skill = "stealth";
+person["age"] = 24;
+
+--------------------------------------
+
+Objects Inside Arrays  
+---------------------------------------------
+You can make an array of objects:
+
+var squad = [
+  { name: "Ghost", level: 7 },
+  { name: "Nova", level: 6 },
+  { name: "Snipe", level: 5 }
+];
+
+Accessing:
+
+squad[1].name; // "Nova"
+
+--------------------------------------
+
+Arrays Inside Objects  
+---------------------------------------------
+You can also put an array inside an object:
+
+var player = {
+  name: "Ghost",
+  tools: ["laptop", "headset", "console"]
+};
+
+Accessing:
+
+player.tools[2]; // "console"
+
+--------------------------------------
+
+Nested Objects  
+---------------------------------------------
+An object can contain another object:
+
+var team = {
+  ghost: { skill: "stealth", level: 7 },
+  nova: { skill: "fire", level: 6 }
+};
+
+Accessing:
+
+team.ghost.skill; // "stealth"
