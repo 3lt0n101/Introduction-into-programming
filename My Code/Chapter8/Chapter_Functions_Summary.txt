@@ -1,0 +1,63 @@
+
+────────────────────────────
+📘 Chapter Summary: JavaScript Functions
+(Reference: JavaScript for Kids + JavaScript for Dummies)
+────────────────────────────
+
+🔹 What is a Function?
+A function is a block of reusable code that performs a specific task when called.
+
+🔹 Defining a Function:
+Syntax:
+function functionName(parameters) {
+    // code to execute
+}
+
+Example:
+function greet(name) {
+    console.log("Hello, " + name);
+}
+
+🔹 Calling a Function:
+greet("Ghosth0wl");
+
+🔹 Parameters vs Arguments:
+- Parameters: placeholders in the function definition.
+- Arguments: actual values passed to the function when it's called.
+
+🔹 Return Values:
+Functions can send data back using the return keyword.
+
+Example:
+function add(x, y) {
+    return x + y;
+}
+let result = add(4, 5); // result = 9
+
+🔹 Anonymous Functions:
+Functions without a name, stored in variables.
+
+let sayHi = function() {
+    console.log("Hi!");
+};
+
+🔹 Arrow Functions (ES6+):
+Shortcut way to write functions.
+
+let square = (x) => x * x;
+
+🔹 Scope:
+- Local scope: inside function.
+- Global scope: outside all functions.
+
+🔹 Default Parameters:
+function greet(name = "stranger") {
+    console.log("Hi " + name);
+}
+
+🔹 Nested Functions:
+You can define one function inside another.
+
+────────────────────────────
+✅ Use functions to keep code DRY (Don’t Repeat Yourself)
+────────────────────────────

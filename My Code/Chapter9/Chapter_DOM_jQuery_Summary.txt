@@ -1,0 +1,67 @@
+
+────────────────────────────
+📘 Chapter Summary: The DOM & jQuery
+(Reference: JavaScript for Kids + JavaScript for Dummies)
+────────────────────────────
+
+🔹 What is the DOM?
+DOM = Document Object Model.
+It's the browser's tree-like structure of your HTML page.
+JavaScript uses the DOM to read and change content, style, and structure.
+
+🔹 Accessing Elements:
+document.getElementById("id")
+document.getElementsByClassName("class")
+document.querySelector("selector")
+
+🔹 Modifying Content:
+let title = document.getElementById("title");
+title.textContent = "New Title";
+
+🔹 Changing Styles:
+title.style.color = "red";
+title.style.fontSize = "24px";
+
+🔹 Event Listeners:
+title.addEventListener("click", function() {
+    alert("Title clicked!");
+});
+
+🔹 Creating Elements:
+let newPara = document.createElement("p");
+newPara.textContent = "Hello!";
+document.body.appendChild(newPara);
+
+────────────────────────────
+💎 Intro to jQuery
+────────────────────────────
+
+🔹 What is jQuery?
+jQuery is a library that simplifies DOM tasks and works well across browsers.
+
+🔹 Basic Syntax:
+$(selector).action();
+
+Example:
+$("#title").text("New Title");
+$("#box").css("background-color", "black");
+
+🔹 Handling Events:
+$("#button").click(function() {
+    alert("Button clicked!");
+});
+
+🔹 Effects and Animations:
+$("#box").hide();
+$("#box").fadeIn();
+
+🔹 Modifying HTML:
+$("#box").html("<h2>Updated!</h2>");
+
+🔹 Adding/Removing Classes:
+$("#box").addClass("dark");
+$("#box").removeClass("dark");
+
+────────────────────────────
+✅ DOM gives you control. jQuery makes it smoother.
+────────────────────────────
