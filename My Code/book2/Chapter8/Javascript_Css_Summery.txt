@@ -1,0 +1,73 @@
+────────────────────────────
+📘 CSS + JavaScript Notes
+(Reference: JavaScript for Dummies)
+────────────────────────────
+
+💠 CSS (Cascading Style Sheets)
+────────────────────────────
+
+🔹 What is CSS?
+CSS is used to style and layout web pages — colors, fonts, spacing, borders, position, and more.
+
+🔹 Syntax:
+selector {
+    property: value;
+}
+
+Example:
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+🔹 Common CSS Properties:
+- color, background-color
+- font-size, font-family, text-align
+- margin, padding, border
+- width, height
+- display, position, flex, grid
+
+🔹 Ways to Apply CSS:
+1. Inline (inside HTML element)
+   <p style="color:red;">Text</p>
+2. Internal (inside <style> tags in <head>)
+3. External (.css file linked with <link> tag)
+
+🔹 Classes vs IDs:
+- .class = reusable
+- #id = unique
+
+Example:
+<div class="box"></div>
+<div id="main-header"></div>
+
+────────────────────────────
+💠 JavaScript Meets CSS
+────────────────────────────
+
+🔹 JavaScript Can Change Styles:
+let box = document.getElementById("box");
+box.style.backgroundColor = "black";
+box.style.fontSize = "20px";
+
+🔹 Add or Remove CSS Classes:
+box.classList.add("dark-mode");
+box.classList.remove("light-mode");
+box.classList.toggle("active");
+
+🔹 Event-Based Styling:
+let btn = document.getElementById("themeBtn");
+
+btn.addEventListener("click", function() {
+    box.style.border = "2px solid cyan";
+});
+
+🔹 Hide or Show Elements:
+document.getElementById("popup").style.display = "none";
+document.getElementById("popup").style.display = "block";
+
+────────────────────────────
+✅ TLDR:
+CSS makes your website look 🔥
+JavaScript makes it breathe 🧠
+────────────────────────────
