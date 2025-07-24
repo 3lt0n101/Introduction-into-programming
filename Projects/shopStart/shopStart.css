@@ -1,0 +1,59 @@
+/* Whole page background */
+body {
+    background-color: skyblue;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Style the item table */
+#demo table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#demo th, #demo td {
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: right;
+}
+
+#demo th {
+    background-color: #ffcccc;
+    color: darkred;
+}
+
+/* Style the receipt area */
+#receipt table {
+    background-color: #f0fff0;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#receipt th, #receipt td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: left;
+}
+
+#receipt th {
+    background-color: #b3ffb3;
+    color: darkgreen;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
